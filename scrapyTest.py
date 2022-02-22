@@ -2,7 +2,7 @@ import scrapy
 
 class NewSpider(scrapy.Spider):
    name = "new_spider"
-   start_urls = ['http://brickset.com/sets/year-2018']
+   start_urls = ['http://brickset.com/sets/year-2017']
 
    def parse(self, response):
       css_selector = 'img'
